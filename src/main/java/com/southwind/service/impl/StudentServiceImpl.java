@@ -45,6 +45,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> impl
     @Autowired
     private MoveoutMapper moveoutMapper;
 
+
     @Override
     public ResultVO login(RuleForm ruleForm) {
         //1、判断用户名是否存在
